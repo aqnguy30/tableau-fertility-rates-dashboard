@@ -1,0 +1,1667 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook source-build='2020.4.1 (20204.21.0114.0916)' source-platform='mac' version='18.1' xml:base='https://prod-useast-b.online.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='HW4-Team16' path='/t/dvijeshshastri/workbooks' revision='1.0' site='dvijeshshastri' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' inline='true' name='federated.0s5sq3b0on90ac16e7bev0wawly4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='UNdata_Export_20210306_043001339' name='excel-direct.0z5h8o00ydobwi1cndbca0ohabt2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/HW-4/UNdata_Export_20210306_043001339.xlsx' interpretationMode='0' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0z5h8o00ydobwi1cndbca0ohabt2' name='UNdata_Export_20210306_04300133' table='[UNdata_Export_20210306_04300133$]' type='table'>
+          <columns gridOrigin='A1:D3264:no:A1:D3264:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country or Area' ordinal='0' />
+            <column datatype='string' name='Year(s)' ordinal='1' />
+            <column datatype='string' name='Variant' ordinal='2' />
+            <column datatype='real' name='Value' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0z5h8o00ydobwi1cndbca0ohabt2' name='UNdata_Export_20210306_04300133' table='[UNdata_Export_20210306_04300133$]' type='table'>
+          <columns gridOrigin='A1:D3264:no:A1:D3264:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country or Area' ordinal='0' />
+            <column datatype='string' name='Year(s)' ordinal='1' />
+            <column datatype='string' name='Variant' ordinal='2' />
+            <column datatype='real' name='Value' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[UNdata_Export_20210306_04300133]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D3264:no:A1:D3264:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country or Area</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country or Area]</local-name>
+            <parent-name>[UNdata_Export_20210306_04300133]</parent-name>
+            <remote-alias>Country or Area</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year(s)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year(s)]</local-name>
+            <parent-name>[UNdata_Export_20210306_04300133]</parent-name>
+            <remote-alias>Year(s)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variant</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Variant]</local-name>
+            <parent-name>[UNdata_Export_20210306_04300133]</parent-name>
+            <remote-alias>Variant</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[UNdata_Export_20210306_04300133]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Info' datatype='string' name='[Calculation_84231414332932097]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;Info&quot;' />
+      </column>
+      <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Year(s)]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='UNdata_Export_20210306_04300133' datatype='table' name='[__tableau_internal_object_id__].[UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_84231414332932097]' derivation='None' name='[none:Calculation_84231414332932097:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Country or Area)' hidden='true' name='[Action (Country or Area)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country or Area]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country or Area,Year(s))' hidden='true' name='[Action (Country or Area,Year(s))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country or Area]' />
+          <groupfilter function='level-members' level='[Year(s)]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country or Area:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Aruba&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Guam&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saint Vincent and the Grenadines&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Southern Europe&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Central Asia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Iran (Islamic Republic of)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Less developed regions&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;North Macedonia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Timor-Leste&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Western Africa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Eastern Europe&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Middle-income countries&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Northern Europe&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Sudan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;World&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cabo Verde&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Other non-specified areas&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Samoa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;China, Hong Kong SAR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Russian Federation&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South-Eastern Asia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Central America&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;French Guiana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mayotte&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Venezuela (Bolivarian Republic of)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Eastern Africa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Less developed regions, excluding China&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Micronesia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Northern Africa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;R√©union&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Western Asia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Caribbean&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dem. People&apos;s Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;China, Macao SAR&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Low-income countries&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Oceania&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Southern Africa&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cura√ßao&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Land-locked Developing Countries (LLDC)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;United States Virgin Islands&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bahamas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Europe and Northern America&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;High-income countries&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lao People&apos;s Democratic Republic&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;New Caledonia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Seychelles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Upper-middle-income countries&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Least developed countries&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Polynesia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Syrian Arab Republic&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Central and Southern Asia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;French Polynesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Melanesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;No income group available&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Small Island Developing States (SIDS)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Viet Nam&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kiribati&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sao Tome and Principe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lower-middle-income countries&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;More developed regions&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oceania (excluding Australia and New Zealand)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Southern Asia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Channel Islands&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Eastern and South-Eastern Asia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Less developed regions, excluding least developed countries&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Micronesia (Fed. States of)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northern Africa and Western Asia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Western Europe&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Latin America and the Caribbean&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Australia/New Zealand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;C√¥te d&apos;Ivoire&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Eswatini&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;State of Palestine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;United Republic of Tanzania&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bolivia (Plurinational State of)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Eastern Asia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Middle Africa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Northern America&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Republic of Moldova&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South America&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Western Sahara&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:Calculation_84231414332932097:nk]' type='shape'>
+            <map to='Hover/info_icon.png'>
+              <bucket>&quot;Info&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='UNdata_Export_20210306_04300133' id='UNdata!Export!20210306!04300133_A778A19FDE4F4A1A879BC06605A9EBD3'>
+            <properties context=''>
+              <relation connection='excel-direct.0z5h8o00ydobwi1cndbca0ohabt2' name='UNdata_Export_20210306_04300133' table='[UNdata_Export_20210306_04300133$]' type='table'>
+                <columns gridOrigin='A1:D3264:no:A1:D3264:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Country or Area' ordinal='0' />
+                  <column datatype='string' name='Year(s)' ordinal='1' />
+                  <column datatype='string' name='Variant' ordinal='2' />
+                  <column datatype='real' name='Value' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+      <datasources>
+        <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+        <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]'>
+        <groupfilter function='level-members' level='[none:Country or Area:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Map' />
+      <link caption='Filter 1 (generated)' delimiter=',' escape='\' expression='tsl:Dashboard%201?%5Bfederated.0s5sq3b0on90ac16e7bev0wawly4%5D.%5BCountry%20or%20Area%5D~s0=&lt;[Country or Area]~na&gt;' include-null='true' multi-select='true' url-escape='true' />
+      <command command='tsc:tsl-filter'>
+        <param name='exclude' value='Info' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Highlight 1 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Country or Area' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Highlight1' name='[Action3]'>
+      <activation auto-clear='true' type='on-hover' />
+      <source dashboard='Dashboard 1' type='sheet'>
+        <exclude-sheet name='Info' />
+      </source>
+      <command command='tsc:brush'>
+        <param name='exclude' value='Info' />
+        <param name='field-captions' value='Country or Area' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+    </datasources>
+    <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+      <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Info'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+            <column caption='Info' datatype='string' name='[Calculation_84231414332932097]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&quot;Info&quot;' />
+            </column>
+            <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Calculation_84231414332932097]' derivation='None' name='[none:Calculation_84231414332932097:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <shape column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Calculation_84231414332932097:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true' fontsize='12'>How to use this Dashboard:</run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>1. Use the dropdown menus in the upper right corner to adjust: </run>
+                <run>Æ&#10;</run>
+                <run bold='true'>+ which region is shown (All, or specific continents) </run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>2. Hover over each mark (circles on map &amp; bar chart or lines on timeline) to highlight the corresponding mark on each of the other views </run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>3. Move the slider below the x-axis of the timeline at the bottom to change the year shown in the map. </run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true'>4. Click on the logo in the top right corner to see more from the creator of this dashboard. </run>
+                <run>Æ&#10;&#10;</run>
+                <run bold='true' fontsize='12'>About the Data:</run>
+                <run bold='true'>Æ </run>
+                <run>Æ&#10;</run>
+                <run bold='true'>Internet usage statistics, population figures and country regions were all obtained from the total fertility rate (children per woman) data from the UN website (http://data.un.org/).</run>
+                <run>Æ&#10;</run>
+                <run bold='true'>Data source: http://data.un.org/</run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EAE5A07A-1C45-456E-9F06-08D518935D8A}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+            <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Value]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Year(s)]' role='dimension' type='nominal' />
+            <column-instance column='[Value]' derivation='Avg' name='[avg:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year(s)]' derivation='None' name='[none:Year(s):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Avg' name='[rank:avg:Value:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[Country or Area]' ordering-type='Field' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:Year(s):nk]' member='&quot;1995-2000&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]</column>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]</column>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[Latitude (generated)]</column>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' />
+              <size column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]' />
+              <lod column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' />
+              <lod column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' />
+              <lod column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[rank:avg:Value:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Country or Area is:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>In Year(s):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Have the average fertility rate:	</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Rank along Country or Area:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[rank:avg:Value:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.0s5sq3b0on90ac16e7bev0wawly4].[Latitude (generated)]</rows>
+        <cols>[federated.0s5sq3b0on90ac16e7bev0wawly4].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{18ECF4F9-0184-4D6A-A894-0C563CFD2438}' />
+    </worksheet>
+    <worksheet name='Timeline'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+            <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Value]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Year(s)]' role='dimension' type='nominal' />
+            <column-instance column='[Value]' derivation='Avg' name='[avg:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year(s)]' derivation='None' name='[none:Year(s):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Avg' name='[rank:avg:Value:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[Country or Area]' ordering-type='Field' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' value='45' />
+            <format attr='tick-color' value='#000000' />
+            <format attr='title' class='0' field='[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]' scope='rows' value='Average Fertility Rate' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' />
+              <lod column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' />
+              <lod column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[rank:avg:Value:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Country or Area is:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>In Year(s):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Have the average fertility rate:	</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Rank along Country or Area:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0s5sq3b0on90ac16e7bev0wawly4].[rank:avg:Value:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]</rows>
+        <cols>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]</cols>
+      </table>
+      <simple-id uuid='{9CBE2A18-D980-41EC-98FD-9A0CB9C7CBD5}' />
+    </worksheet>
+    <worksheet name='Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+            <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Year(s)]' role='dimension' type='nominal' />
+            <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year(s)]' derivation='None' name='[none:Year(s):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[Action (Country or Area)]'>
+            <groupfilter function='level-members' level='[Country or Area]' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' filter-group='3'>
+            <groupfilter function='member' level='[none:Year(s):nk]' member='&quot;1995-2000&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]</column>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]</column>
+            <column>[federated.0s5sq3b0on90ac16e7bev0wawly4].[Action (Country or Area)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='124' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='14' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9CF42DDF-32C5-4E47-B38B-581D61D52785}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='UNdata_Export_20210306_04300133 (UNdata_Export_20210306_043001339)' name='federated.0s5sq3b0on90ac16e7bev0wawly4' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0s5sq3b0on90ac16e7bev0wawly4'>
+        <column datatype='string' name='[Country or Area]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+        <column datatype='string' name='[Year(s)]' role='dimension' type='nominal' />
+        <column-instance column='[Country or Area]' derivation='None' name='[none:Country or Area:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Year(s)]' derivation='None' name='[none:Year(s):nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='78674' id='7' param='horz' w='98910' x='545' y='20391'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='78674' id='5' w='88018' x='545' y='20391'>
+              <zone h='39308' id='3' name='Map' show-title='false' w='88018' x='545' y='20391'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='39366' id='11' name='Timeline' show-title='false' w='88018' x='545' y='59699'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='78674' id='6' is-fixed='true' param='vert' w='10892' x='88563' y='20391'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='78674' id='9' name='Map' pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' w='10892' x='88563' y='20391'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10703' id='14' w='98910' x='545' y='935'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontsize='22'>Exploring the Growth of the Average Fertility Rates</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8753' id='15' w='98910' x='545' y='11638'>
+            <formatted-text>
+              <run bold='true' fontcolor='#000000' fontsize='11'>See how the population of the world has adopted the average fertility rates. View the average values, and hover over a mark to highlight each country in the other chart. Use the slider at the bottom to focus on specific time-period years and view by region.</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5134' id='13' mode='slider' name='Map' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' show-all='false' show-readout='false' show-title='false' values='database' w='81007' x='6943' y='96733' />
+        <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' h='14002' id='16' is-centered='0' is-scaled='1' param='Image/UHHH.png' url='https://www.uh.edu/' w='13547' x='88428' y='-117' />
+        <zone h='9568' id='17' name='Info' show-title='false' w='16542' x='71273' y='2100' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='6068' id='12' mode='dropdown' name='Timeline' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' w='11436' x='54867' y='3617' />
+        <zone h='3617' id='18' name='Year' show-title='false' w='21647' x='41865' y='16686' />
+        <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='3501' id='19' w='6807' x='36624' y='16336'>
+          <formatted-text>
+            <run fontsize='14'>Year(s): </run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='23' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98134' id='22' param='vert' w='98910' x='545' y='933'>
+                <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='112' h='14002' id='16' is-centered='0' is-fixed='true' is-scaled='1' param='Image/UHHH.png' url='https://www.uh.edu/' w='13547' x='88428' y='-117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='10704' id='14' w='98910' x='545' y='933'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='22'>Exploring the Growth of the Average Fertility Rates</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='76' h='9568' id='17' is-fixed='true' name='Info' show-title='false' w='16542' x='71273' y='2100'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='8753' id='15' w='98910' x='545' y='11637'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontsize='11'>See how the population of the world has adopted the average fertility rates. View the average values, and hover over a mark to highlight each country in the other chart. Use the slider at the bottom to focus on specific time-period years and view by region.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='text' _.fcp.SetMembershipControl.true...type-v2='text' forceUpdate='true' h='3501' id='19' w='6807' x='36624' y='16336'>
+                  <formatted-text>
+                    <run fontsize='14'>Year(s): </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='29' h='3617' id='18' is-fixed='true' name='Year' show-title='false' w='21647' x='41865' y='16686'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='5134' id='13' mode='slider' name='Map' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' show-all='false' show-readout='false' show-title='false' values='database' w='81007' x='6943' y='96733'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39310' id='3' is-fixed='true' name='Map' show-title='false' w='88018' x='545' y='20390'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='78677' id='9' name='Map' pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' w='10892' x='88563' y='20390'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='6068' id='12' mode='dropdown' name='Timeline' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' w='11436' x='54867' y='3617'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39367' id='11' is-fixed='true' name='Timeline' show-title='false' w='88018' x='545' y='59700'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EC459F57-7518-4AC8-9182-A2DBAEAC75F3}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Year(s):nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[avg:Value:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5CADDE89-D0B0-496A-B851-2E1F55E3296C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Timeline'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Country or Area:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{82E149AB-82A1-4A35-9944-BDBDC8E6C757}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Info'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Timeline'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Year' />
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{DA4327E6-D71E-45EA-9973-AEE0593591B8}' />
+    </window>
+    <window class='worksheet' name='Info'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0s5sq3b0on90ac16e7bev0wawly4].[none:Calculation_84231414332932097:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{09050938-02E4-4787-B752-718E412E3F59}' />
+    </window>
+    <window class='worksheet' name='Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AEB53387-2EB7-45DB-88BD-E174E53C377C}' />
+    </window>
+  </windows>
+  <external>
+    <shapes>
+      <shape name='Hover/info_icon.png'>
+        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
+      </shape>
+    </shapes>
+  </external>
+</workbook>
